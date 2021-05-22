@@ -10,7 +10,7 @@ html {
 
 body {
   background-color: #dbd6cf;
-  margin: .3em;
+  margin: 0;
 }
 
 header {
@@ -21,9 +21,11 @@ header {
 
 h1 {
   color: #fff;
-  font-family: "Bevan", cursive;
+  font-family: 'Bevan', sans-serif;
   text-align: center;
   padding: 0;
+  margin-bottom: 0;
+  margin-top: .2em;
 }
 
 nav li {
@@ -32,15 +34,22 @@ nav li {
 
 nav a {
   display: inline-block;
-  padding: .75em;
+  padding: .5em;
   text-decoration: none;
+  list-style-type: inherit;
   color: #fff;
   background-color: #713837;
   border-radius: 4px;
+  margin: .3em;
+}
+
+a:hover {
+  background-color: #f33;
 }
 
 nav ul {
   text-align: center;
   padding: 0;
   margin-top: 0;
+  margin-bottom: 0;
 }
